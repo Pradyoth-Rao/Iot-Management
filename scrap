@@ -1,0 +1,20 @@
+<html>
+<head>
+	<title> Login Form </title>
+</head>
+<body>
+<form action="pass.php" method="post">
+
+Please Select:
+<br/>
+Student:<input type="radio" name="Select" value="Student"><br/>
+Faculty:<input type="radio" name="Select" value="Faculty"><br/>
+Admin:<input type="radio" name="Select" value="Admin"><br/>
+Others:<input type="radio" name="Select" value="Others"><br/>
+<br/>
+Username:<input type="text" name="id" /><br/>
+Password:<input type="password" name="password" /><br/>
+<input type="submit" name="submit" />
+</form>
+</body>
+</html>
